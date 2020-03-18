@@ -1,0 +1,32 @@
+class programs:
+
+    def __init__(self , aiMentor , aiStudent , ml , course , desig):
+        self.aiMentor = aiMentor
+        self.aiStudent = aiStudent
+        self.ml = ml
+        self.desig = desig
+        self.course = course
+
+        aiMentor = []
+
+print("course 1.) ml or 2.) ai")
+course = input()
+
+print(course)
+
+if (course == 'ml' ):
+ print("mentor or student")
+ desig = input()
+
+ print(desig)
+
+if (desig == 'mentor'):
+
+    aiMentor = input("name , time").split()
+
+else:
+ aiStudent = []
+aiStudent = input("name")
+
+print(aiMentor)
+
